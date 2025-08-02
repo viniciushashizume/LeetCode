@@ -8,4 +8,3 @@ class Solution:
             while not strs[i].startswith(maiorPrefixo):
                 maiorPrefixo = maiorPrefixo[:-1] #vai "cortando" ate começar com o prefixo
         return maiorPrefixo
-            
