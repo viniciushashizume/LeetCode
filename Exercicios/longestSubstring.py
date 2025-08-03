@@ -1,3 +1,4 @@
+#https://leetcode.com/problems/longest-substring-without-repeating-characters/
 class Solution: #a ideia é usar o conceito da janela deslizante
     def lengthOfLongestSubstring(self, s: str) -> int:
         maiorSubstring = 0
